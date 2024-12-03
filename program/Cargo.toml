@@ -23,8 +23,8 @@ crate-type = ["cdylib", "lib"]
 
 [dependencies]
 solana-program = ">=1.17,<2.0"
-spl-token = { version = "4.0.3", features = ["no-entrypoint"] }
-spl-associated-token-account = { version = "2.3.0", features = [
+spl-token = { version = "4.0.2", features = ["no-entrypoint"] }
+spl-associated-token-account = { version = "3.0.2", features = [
     "no-entrypoint",
 ] }
 serum_dex = { version = "0.5.10", git = "https://github.com/raydium-io/openbook-dex", features = [
